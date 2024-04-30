@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practis_flutter/onboarding/onboarding_Screen.dart';
+import 'package:practis_flutter/movie/movie_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: OnBoardingScreen(),
+      home: Movie_Screen(),
     );
   }
 }
